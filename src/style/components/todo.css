@@ -2,10 +2,6 @@
     margin: 2rem 0;
 }
 
-.c-todo-input__hidden {
-
-}
-
 .c-todo-input__label {
     display: flex;
     align-items: flex-start;
@@ -13,11 +9,13 @@
 
 .c-todo-input__check {
     display: flex;
+    flex-shrink: 0;
     align-items: center;
     justify-content: center;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
+    margin-top: .25rem;
 
     border: 1px solid var(--global-theme-color);
 
@@ -43,9 +41,13 @@
     font-size: 1.4rem;
     font-weight: 600;
     margin: 0;
+    line-height: 1.1;
 }
 
 .c-todo-description__category {
-    color: var(--global-neutral-700);
+    color: var(--global-neutral-600);
     margin: 0;
+
+    font-size: 0.9rem;
+    font-weight: 500;
 }
