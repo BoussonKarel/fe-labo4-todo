@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 // #2 Third library packages
 
 // #3 Custom / own code
+import ts from '../utils/local';
+
 import AppHeader from '../components/AppHeader';
 import AppFooter from '../components/AppFooter';
 import Container from '../components/Containers';
