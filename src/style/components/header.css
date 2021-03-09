@@ -1,0 +1,15 @@
+.c-header {
+    
+}
+
+.c-header__welcome {
+    font-size: 2.4rem;
+    margin: 0;
+}
+
+.c-header__description {
+    margin: 0;
+    
+    letter-spacing: 1px;
+    color: var(--global-neutral-700);
+}
