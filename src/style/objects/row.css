@@ -1,0 +1,7 @@
+.o-row {
+    padding: 2rem 2rem;
+}
+
+.o-row--dark {
+    background: var(--global-neutral-800);
+}

@@ -1,0 +1,8 @@
+html {
+    background: var(--global-neutral-200);
+}
+
+body {
+    font: 16px / 1.5 Roboto, sans-serif;
+    color: var(--global-neutral-800);
+}
