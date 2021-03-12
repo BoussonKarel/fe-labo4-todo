@@ -6,3 +6,8 @@ body {
     font: 16px / 1.5 Roboto, sans-serif;
     color: var(--global-neutral-800);
 }
+
+::selection {
+    background: var(--global-theme-color);
+    color: var(--global-neutral-200);
+}
